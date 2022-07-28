@@ -17,7 +17,7 @@ public class Week03Application {
         SpringApplication.run(Week03Application.class, args);
     }
 
-    @Bean //  싱글톤..? ||유지하기위해 의존성 주입을 한다. demo메소드를 계속불러서
+    @Bean //
     public CommandLineRunner demo(MemoRepository memoRepository, MemoService memoService) {
         return (args) -> {
 //            memoRepository.save( new Memo("김혜인", "재밌땅.","스프링" ,"1234"));

@@ -34,6 +34,7 @@ public class MemoService {
 
 
 
+
 //    public Long idUpdate(Long id ,MemoRequestDto requestDto){
 //        Memo memo = memoRepository.findById(id).orElseThrow(
 //                () -> new NullPointerException("아이디가 없습니다.")
